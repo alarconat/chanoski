@@ -3,13 +3,44 @@
     height: auto; /* Mantiene la proporción del logo */
     margin-left: 10px;
 }
+
+/* Estilos generales */
 .hero-section {
     position: relative;
     width: 100%;
     height: 100vh; /* Altura completa de la ventana */
     background: url('../images/chanoskybg.png') no-repeat center center/cover; /* Imagen de fondo */
-    /* background-color: black; */ /* Alternativamente, puedes usar un fondo de color negro */
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero-section .hero-text img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero-section h1 {
+    font-size: 18px; /* Tamaño del texto principal */
+    margin-top: 20px;
+  }
+  
+  /* Estilos para tablets (iPad) */
+  @media (max-width: 768px) {
+    .hero-section .hero-text img {
+      width: 60%; /* Reduce el tamaño de la imagen en tablets */
+    }
+  }
+  
+  /* Estilos para teléfonos móviles */
+  @media (max-width: 576px) {
+    .hero-section .hero-text img {
+      width: 70%; /* Reduce aún más el tamaño de la imagen en móviles */
+    }
+  }
+  
 .navbar {
     background-color: #000000 !important; /* Cambia el color de fondo del navbar */
 }
