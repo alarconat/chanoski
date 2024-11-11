@@ -2170,6 +2170,12 @@
     margin: 50px 0 0;
     border-top: 1px solid #444;
   }
+  .footer .desarrollado {
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+    margin: 20px 0 0;
+  }
   
   @media (max-width: 580px) {
     .footer {
