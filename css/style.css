@@ -1928,7 +1928,7 @@
   }
   
   .discount .image {
-    background-image: url("../images/Thiago-Tomboly.jpg");
+    background-image: url("../images/mapamundi.PNG");
     background-size: cover;
     color: white;
     flex-basis: 50%;
@@ -2291,11 +2291,11 @@
   @keyframes change-background {
     0%,
     100% {
-      background-image: url("../images/Thiago-Tomboly.jpg");
+      background-image: url("../images/mapamundi.PNG");
     }
   
     50% {
-      background-image: url("../images/Thiago-Tomboly.jpg");
+      background-image: url("../images/mapamundi.PNG");
     }
   }
   
